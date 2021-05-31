@@ -8,3 +8,5 @@ wow: https://gircsi117.github.io/meretarany/
 paprika: https://gircsi117.github.io/paprika/
 
 balaton: https://gircsi117.github.io/balatongyorok/
+
+ubuntu: https://ramenslurper69.github.io/ubuntu/
