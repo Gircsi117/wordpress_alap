@@ -1,9 +1,14 @@
 html
 {
     font-family: 'Open Sans', sans-serif;
-    background-color: silver;
+    background-color: black;
     background-image: url("img/background.jpg");
-    background-size: 100%;
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
 }
