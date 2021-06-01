@@ -23,12 +23,15 @@ h1
 {
     background-color: whitesmoke;
     border-radius: 5px;
+    margin: 50px auto;
+    padding: 5px;
+    width: 50%;
 }
 
 #container
 {
     display: grid;
-    grid-template-rows: 150px auto 1fr 100px;
+    grid-template-rows: auto auto 1fr 100px;
     gap: 15px;
     width: 60%;
     height: 100%;
@@ -56,7 +59,7 @@ h1
     margin-right: 10px;
     background-color: tomato;
     padding: 10px;
-    width: 15%;
+    width: 120px;
     text-align: center;
 }
 
@@ -70,7 +73,8 @@ h1
 }
 
 #content{
-    padding: 40px;
+    padding: 0px 40px;
+    min-height: 200px;
 }
 
 .avatar
@@ -116,4 +120,11 @@ footer li:nth-child(2)::before{
 }
 footer li:nth-child(3)::before{
     background-image: url(img/map.ico);
+}
+
+/*Reszponzivitás*/
+@media only screen and (max-width: 500px){
+    #content{
+        background-color: violet;
+    }
 }
