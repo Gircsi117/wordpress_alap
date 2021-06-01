@@ -22,3 +22,7 @@ html
     border-radius: 10px;
     box-shadow: inset 0 0 15px  grey;
 }
+
+img{
+    width: 10%;
+}
