@@ -37,3 +37,16 @@ img
     width: 100%;
     border-radius: 10px;
 }
+
+footer li{
+    list-style-type: none;
+}
+
+footer li::before{
+    content: '';
+   display: inline-block;
+   height: 15px;
+   width: 15px;
+   background-image: url(img/gamil.ico);
+   background-size: cover;
+}
