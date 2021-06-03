@@ -1,7 +1,5 @@
-$("#accordion").accordion(
-    {collapsible: true,
-     heightStyle: "content"
-    }
-);
+$("#accordion").accordion({
+    heightStyle: "content"
+});
 
 $("#tabok").tabs();
