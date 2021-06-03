@@ -3,3 +3,5 @@ $("#accordion").accordion({
 });
 
 $("#tabok").tabs();
+
+//alert(window.innerWidth)
