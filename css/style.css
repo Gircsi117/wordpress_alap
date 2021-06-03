@@ -78,6 +78,21 @@ h1
     min-height: 200px;
 }
 
+#content ul{
+    margin-top: 0px;
+}
+
+h2{
+    text-decoration: underline;
+    padding: 20px 0px 10px 0px;
+    margin: 0px;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
 #munkatarsak{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -201,7 +216,6 @@ footer li:nth-child(3)::before{
 @media only screen and (max-width: 650px){
     #menu{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .tars h3{
