@@ -7,6 +7,13 @@ html
     background-position: center;    
 }
 
+#warning{
+    color: red;
+    width: 95%;
+    text-align: center;
+    display: none;
+}
+
 table
 {
     text-align: center;
@@ -150,9 +157,12 @@ footer li:nth-child(3)::before{
     }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
     #container{
         display: none;
+    }
+    #warning{
+        display: block;
     }
 }
 
