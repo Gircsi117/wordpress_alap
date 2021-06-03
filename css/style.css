@@ -74,7 +74,7 @@ h1
 }
 
 #content{
-    padding: 0px 40px;
+    padding: 0px 5%;
     min-height: 200px;
 }
 
@@ -105,6 +105,7 @@ p{
     border-radius: 10px;
     padding: 0px;
     box-shadow: 0px 0px 5px brown inset;
+    border: 1px solid brown;
 }
 
 #munkatarsak h3{
@@ -190,7 +191,7 @@ footer li:nth-child(3)::before{
 #accordion h3{
     margin: 10px 0px 0px 0px;
     text-align: center;
-    background-color: tomato;
+    /*background-color: tomato;*/
     color: white;
     box-shadow: 0px 0px 5px brown inset;
 }
@@ -204,7 +205,7 @@ footer li:nth-child(3)::before{
 }
 
 /*Értékek finomhangolása*/
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 350px){
     #container{
         display: none;
     }

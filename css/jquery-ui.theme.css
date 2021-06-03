@@ -61,7 +61,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #c5c5c5;
-	background: #f6f6f6;
+	background: tomato;
 	font-weight: normal;
 	color: #454545;
 }
@@ -75,6 +75,8 @@ a:visited.ui-button,
 	color: #454545;
 	text-decoration: none;
 }
+
+/*Accordion hover szin*/
 .ui-state-hover,
 .ui-widget-content .ui-state-hover,
 .ui-widget-header .ui-state-hover,
@@ -84,7 +86,8 @@ a:visited.ui-button,
 .ui-button:hover,
 .ui-button:focus {
 	border: 1px solid #cccccc;
-	background: #ededed;
+	background: rgb(247, 138, 119);
+	transition: 0.5s;
 	font-weight: normal;
 	color: #2b2b2b;
 }
@@ -105,6 +108,8 @@ a.ui-button:focus {
 .ui-visual-focus {
 	box-shadow: 0 0 3px 1px rgb(94, 158, 214);
 }
+
+/*Aktív kijelölés színe*/
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active,
@@ -112,7 +117,7 @@ a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
 	border: 1px solid #003eff;
-	background: #007fff;
+	background: rgb(247, 138, 119);
 	font-weight: normal;
 	color: #ffffff;
 }
