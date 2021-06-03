@@ -125,6 +125,7 @@ footer li:nth-child(3)::before{
 }
 
 #accordion h3{
+    margin: 5px 0px 5px 0px;
     text-align: center;
     background-color: tomato;
     color: white;
