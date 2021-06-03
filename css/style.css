@@ -196,7 +196,6 @@ footer li:nth-child(3)::before{
 }
 
 
-
 /*Reszponzivitás*/
 @media only screen and (min-width: 950px){
     #container{
@@ -204,6 +203,7 @@ footer li:nth-child(3)::before{
     }
 }
 
+/*Értékek finomhangolása*/
 @media only screen and (max-width: 450px){
     #container{
         display: none;
@@ -213,6 +213,7 @@ footer li:nth-child(3)::before{
     }
 }
 
+/*Betűméretek férmázása*/
 @media only screen and (max-width: 650px){
     #menu{
         grid-template-columns: 1fr;
