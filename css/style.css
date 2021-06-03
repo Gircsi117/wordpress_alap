@@ -151,9 +151,9 @@ footer li:nth-child(3)::before{
 
 
 /*Reszponzivitás*/
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 950px){
     #container{
-        width: 927px;
+        width: 850px;
     }
 }
 
