@@ -1,7 +1,7 @@
 html
 {
     font-family: 'Open Sans', sans-serif;
-    background-image: url("/img/background.jpg");
+    background-image: url("../img/background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;    
@@ -14,7 +14,7 @@ table
 
 header
 {
-    background-image: url("/img/header.jpg");
+    background-image: url("../img/header.jpg");
     background-size: 100%;
     text-align: center;
     min-width: 60%;
@@ -112,13 +112,13 @@ footer li::before{
 }
 
 footer li:nth-child(1)::before{
-    background-image: url(/img/gamil.ico);
+    background-image: url("../img/gamil.ico");
 }
 footer li:nth-child(2)::before{
-    background-image: url(/img/phone.ico);
+    background-image: url("../img/phone.ico");
 }
 footer li:nth-child(3)::before{
-    background-image: url(/img/map.ico);
+    background-image: url("../img/map.ico");
 }
 
 .munkak{
