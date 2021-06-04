@@ -196,6 +196,22 @@ footer li:nth-child(3)::before{
     box-shadow: 0px 0px 5px brown inset;
 }
 
+#szolgaltatasok{
+    display: grid;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.szolgaltatas{
+    padding: 15px;
+    background-color: rgb(253, 208, 208);
+    text-align: center;
+    box-shadow: 0px 0px 5px brown inset;
+    border-radius: 15px;
+    color: black;
+}
 
 /*Reszponzivitás*/
 @media only screen and (min-width: 950px){
@@ -222,5 +238,9 @@ footer li:nth-child(3)::before{
 
     .tars h3{
         font-size: 80%;
+    }
+
+    h1{
+        font-size: 150%;
     }
 }
