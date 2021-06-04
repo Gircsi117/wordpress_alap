@@ -73,6 +73,10 @@ h1
     transition: 0.5s;
 }
 
+#elerhetosegek{
+    text-align: left;
+}
+
 #content{
     padding: 0px 5%;
     min-height: 200px;
@@ -142,12 +146,7 @@ footer{
     margin-top: 10px;
 }
 
-footer li{
-    list-style-type: none;
-    padding-bottom: 5px;
-}
-
-footer ul{
+footer table{
     padding: 10px 5% 10px 5%;
 }
 
@@ -156,7 +155,7 @@ footer a{
     text-decoration: none;
 }
 
-footer li::before{
+footer tr::before{
     content: '';
     display: inline-block;
     height: 15px;
@@ -166,13 +165,13 @@ footer li::before{
     background-size: cover;
 }
 
-footer li:nth-child(1)::before{
+footer tr:nth-child(1)::before{
     background-image: url("../img/gamil.ico");
 }
-footer li:nth-child(2)::before{
+footer tr:nth-child(2)::before{
     background-image: url("../img/phone.ico");
 }
-footer li:nth-child(3)::before{
+footer tr:nth-child(3)::before{
     background-image: url("../img/map.ico");
 }
 
