@@ -242,4 +242,8 @@ footer tr:nth-child(3)::before{
     h1{
         font-size: 150%;
     }
+
+    #szolgaltatasok{
+        grid-template-columns: 1fr;
+    }
 }
